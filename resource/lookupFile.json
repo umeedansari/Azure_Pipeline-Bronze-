@@ -1,0 +1,26 @@
+[
+  {
+    "table_name" : "prd_info",
+    "backdated_refresh" : ""
+  },
+  {
+    "table_name" : "PX_CAT_G1V2",
+    "backdated_refresh" : ""
+  },
+  {
+    "table_name" : "cust_info",
+    "backdated_refresh" : ""
+  },
+  {
+    "table_name" : "CUST_AZ12",
+    "backdated_refresh" : ""
+  },
+  {
+    "table_name" : "sales_details",
+    "backdated_refresh" : ""
+  },
+  {
+    "table_name" : "LOC_A101",
+    "backdated_refresh" : ""
+  }
+]
