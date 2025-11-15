@@ -3,7 +3,7 @@
 	"type": "Microsoft.Synapse/workspaces/linkedservices",
 	"properties": {
 		"typeProperties": {
-			"url": "https://managedsynapseadls.dfs.core.windows.net"
+			"url": "https://***.dfs.core.windows.net"
 		},
 		"type": "AzureBlobFS",
 		"connectVia": {
