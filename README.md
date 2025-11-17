@@ -1,8 +1,17 @@
-# 📘 Data Engineering Pipeline (Azure Synapse)
+# 🌟 End-to-End ETL Pipeline (Bronze → Silver → Gold)
 
-This project implements a fully automated **Bronze-layer ingestion pipeline** in Azure Synapse Analytics. The goal of the pipeline is to ingest data incrementally from Azure SQL Database into Azure Data Lake Storage (ADLS) using a metadata-driven approach with CDC (change data capture) logic.
+This project implements a complete end-to-end ETL pipeline using **Azure Synapse, ADLS, and Databricks**, following a **Bronze-Silver-Gold Lakehouse architecture**.  
+
+- **Bronze Layer:** Ingests raw data incrementally from SQL sources into ADLS with CDC support and monitoring alerts.  
+- **Silver Layer:** Cleanses, deduplicates, and enriches the data in Delta tables, enabling continuous incremental updates.  
+- **Gold Layer:** Prepares analytics-ready data by implementing **Slowly Changing Dimensions (SCD Type 2)**, creating dimension and fact tables, and exposing views for reporting and BI.  
+
+Together, these layers provide a **scalable, automated, and metadata-driven pipeline** for reliable data processing and analytics.
 
 ---
+
+
+# 🟤 Bronze Layer
 
 ## 🔄 Pipelines Overview
 
