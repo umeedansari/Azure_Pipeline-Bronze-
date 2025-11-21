@@ -62,3 +62,7 @@ This project showcases a production-ready **Bronze layer ingestion framework** b
 It provides a scalable, maintainable, and efficient foundation for a modern data lakehouse architecture.
 
 ---
+
+## 🏗️ Architecture
+
+<img width="1049" height="733" alt="Screenshot 2025-11-21 115813" src="https://github.com/user-attachments/assets/ce3cfddf-1a8c-4155-9d4d-22a24bd8ad97" />
